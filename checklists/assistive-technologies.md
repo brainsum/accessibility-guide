@@ -45,6 +45,10 @@ The integrated solution for Windows.
 
 {% embed url="https://support.microsoft.com/en-us/windows/complete-guide-to-narrator-e4397a0d-ef4f-b386-d8ae-c172f109bdb1" %}
 
+{% embed url="https://www.microsoft.com/en-us/accessibility/resources?activetab=pivot_1:primaryr3" %}
+There are Guides for the Narrator
+{% endembed %}
+
 ### VoiceOver
 
 OS: macOS, iOS, iPadOS, tvOS

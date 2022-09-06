@@ -37,3 +37,18 @@ US Section 508 Regulation
 {% embed url="https://www.accessibility.sa.gov.au" %}
 AU Online Accessibility Toolkit
 {% endembed %}
+
+## Google
+
+{% embed url="https://www.google.com/accessibility/for-developers/" %}
+Resources for Developers and Publishers (Checkout the Chrome tab below)
+{% endembed %}
+
+{% embed url="https://www.udacity.com/course/web-accessibility--ud891" %}
+Udacity Free Course: Web Accessibility by Google
+{% endembed %}
+
+{% embed url="https://web.dev/accessibility/" %}
+web.dev Accessibility
+{% endembed %}
+

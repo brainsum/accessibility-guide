@@ -24,11 +24,62 @@ versions: web
 
 ## Third-party recommended, battle-tested validators
 
-* [Google Lighthouse ](https://web.dev/measure/)(web, browser extension)
-* [ARC Toolkit](https://chrome.google.com/webstore/detail/arc-toolkit/chdkkkccnlfncngelccgbgfmjebmkmce) (browser extension, for localhost audit you must enable URL access for it!)
-* [Accessibility Insights ](https://accessibilityinsights.io/)(browser extension)
-* [WebAIM WAVE ](https://wave.webaim.org/)(web, browser extension)
-* [A11ygator ](https://a11ygator.chialab.io/)(web, Chrome extension)
-* [ANDI ](https://www.ssa.gov/accessibility/andi/help/install.html)by [US government](https://github.com/SSAgov) (browser bookmarklet)
-* [Deque Axe ](https://www.deque.com/axe/)(browser extension)
-* [Editoria11y Accessibility Checker ](https://www.drupal.org/project/editoria11y)(Drupal module)
+### Google Lighthouse
+
+versions: web, browser extension
+
+{% embed url="https://web.dev/measure/" %}
+
+### ARC Toolkit
+
+versions: browser extension
+
+<figure><img src="../.gitbook/assets/Screenshot 2022-09-06 at 17.26.24.png" alt=""><figcaption><p>For localhost audit you must enable URL access for it!</p></figcaption></figure>
+
+{% embed url="https://chrome.google.com/webstore/detail/arc-toolkit/chdkkkccnlfncngelccgbgfmjebmkmce" %}
+
+### Accessibility Insights
+
+versions: browser extension
+
+{% embed url="https://accessibilityinsights.io" %}
+
+### WebAIM WAVE
+
+The most popular accessibility audit tool
+
+versions: web, browser extension
+
+{% embed url="https://wave.webaim.org" %}
+
+### A11ygator
+
+versions: web, Chrome extension
+
+{% hint style="info" %}
+In the web version, we can choose between standards.
+{% endhint %}
+
+{% embed url="https://a11ygator.chialab.io" %}
+
+### ANDI by the [US government](https://github.com/SSAgov)
+
+versions: browser bookmarklet
+
+{% hint style="warning" %}
+<mark style="color:orange;">If we need to comply with</mark> [<mark style="color:orange;">**Section 508**</mark>](../standards/section-508.md)<mark style="color:orange;">, don't miss it.</mark>
+{% endhint %}
+
+{% embed url="https://www.ssa.gov/accessibility/andi/help/install.html" %}
+
+### Deque Axe
+
+versions: browser extension
+
+{% embed url="https://www.deque.com/axe/" %}
+
+### Editoria11y Accessibility Checker <a href="#page-subtitle" id="page-subtitle"></a>
+
+versions: Drupal module (7.x, 8.x, 9.x)
+
+{% embed url="https://www.drupal.org/project/editoria11y" %}

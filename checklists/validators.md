@@ -1,12 +1,28 @@
 # 🤖 Validators
 
-## Official recommended validators by W3C
+## The official recommended validators by W3C
 
-* [W3C Markup Validator ](https://validator.w3.org/)(web): valid HTML5 code, regular use, no open tags
-* [W3C CSS Validator ](https://jigsaw.w3.org/css-validator/)(web): correct or at least usable in any browser you want to support
-* [List of other recommended validators](https://www.w3.org/WAI/WCAG21/Techniques/general/G134.html)
+### W3C Markup Validator
 
-## Third party recommended, battle-tested validators
+could check: valid HTML5 code, regular use, no open tags
+
+versions: web (there are some third-party browser extensions)
+
+{% embed url="https://validator.w3.org" %}
+
+### W3C CSS Validator
+
+&#x20;could check: correct or at least usable in any browser you want to support
+
+versions: web
+
+{% embed url="https://jigsaw.w3.org/css-validator/" %}
+
+### List of other recommended validators
+
+{% embed url="https://www.w3.org/WAI/WCAG21/Techniques/general/G134.html" %}
+
+## Third-party recommended, battle-tested validators
 
 * [Google Lighthouse ](https://web.dev/measure/)(web, browser extension)
 * [ARC Toolkit](https://chrome.google.com/webstore/detail/arc-toolkit/chdkkkccnlfncngelccgbgfmjebmkmce) (browser extension, for localhost audit you must enable URL access for it!)

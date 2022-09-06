@@ -1,0 +1,98 @@
+---
+description: Accessible Rich Internet Applications Suite
+---
+
+# ♿ WAI-ARIA
+
+## **What is WAI-ARIA?**
+
+The W3C [Web Accessibility Initiative ](https://www.w3.org/WAI/)to make websites and web applications more accessible to people with disabilities.
+
+Specifically, it tries to help you understand the clear relationships between dynamically changing elements and elements that are visible to the normal user:
+
+* names and assigns roles to each HTML element
+* tag, gives a title to any item that has no text content,
+* tracks the current status of interactive items.
+
+Latest release: [WAI-ARIA 1.1 ](https://www.w3.org/TR/wai-aria-1.1/), released in 2017; [1.2 ](https://www.w3.org/TR/wai-aria-1.2/)is still in Draft version.
+
+## **WAI-ARIA tools**
+
+1. Widget type roles , e.g. `menu` , `menuitem` , `slider` , `progressbar`.
+2. Roles according to web page structure (header, footer, sidebar), e.g. `banner`, `main`, `contentinfo`.
+3. Identification of items, e.g. `aria-label`, `aria-labelledby`.
+4. Indicate the relationship between several elements, e.g. `aria-describedby`, `aria-owns`, `aria-haspopup`.
+5. Indication of current status, e.g. `aria-checked`, `aria-disabled`, `aria-extended`.
+
+## **Using WAI-ARIA**
+
+**HTML5 priority**Use Semantic HTML5 elements instead of aria attributes wherever possible, as they have the appropriate aria-role by default!
+
+In HTML5, give `aria-role` to elements if it is different from the default, for example:
+
+{% code overflow="wrap" lineNumbers="true" %}
+```html
+<div class="button" aria-role="button">
+    Click here!
+</div>
+```
+{% endcode %}
+
+{% hint style="danger" %}
+<mark style="color:red;">**Don't forget!**</mark> <mark style="color:red;"></mark><mark style="color:red;">No aria property is much better than a bad aria property!</mark>
+{% endhint %}
+
+### Be cautious with duplicates &#x20;
+
+Since screen readers read the `role` of a given item (even if it was not entered manually), the `title` and `label` of that item should not be the same because it will be read twice. E.g. use `aria-labelledby` instead of `aria-label`:
+
+{% code overflow="wrap" lineNumbers="true" %}
+```html
+<nav aria-labelledby="navTitle">
+    <h4 id="navTitle">Navigation<h4>
+</nav>
+```
+{% endcode %}
+
+### Dynamic ARIA properties
+
+The attributes that indicate the state, if they can be changed (`aria-checked`, `aria-extended`) must be alternated with JS, as we are used to active classes.
+
+### Connect the logical related DOM elements
+
+Associate elements in different locations in the DOM but associated with the corresponding aria properties, e.g. [example of tab navigation](https://developer.mozilla.org/en-US/docs/Web/Accessibility/An\_overview\_of\_accessible\_web\_applications\_and\_widgets):&#x20;
+
+{% code overflow="wrap" lineNumbers="true" %}
+```html
+<!-- Now *these* are Tabs! -->
+<!-- We've added role attributes to describe the tab list and each tab. -->
+<ol role="tablist">
+  <li id="ch1Tab" role="tab">
+    <a href="#ch1Panel">Chapter 1</a>
+  </li>
+  <li id="ch2Tab" role="tab">
+    <a href="#ch2Panel">Chapter 2</a>
+  </li>
+  <li id="quizTab" role="tab">
+    <a href="#quizPanel">Quiz</a>
+  </li>
+</ol>
+
+<div>
+  <!-- Notice the role and aria-labelledby attributes we've added to describe these panels. -->
+  <div id="ch1Panel" role="tabpanel" aria-labelledby="ch1Tab">Chapter 1 content goes here</div>
+  <div id="ch2Panel" role="tabpanel" aria-labelledby="ch2Tab">Chapter 2 content goes here</div>
+  <div id="quizPanel" role="tabpanel" aria-labelledby="quizTab">Quiz content goes here</div>
+</div>
+```
+{% endcode %}
+
+### :tools:Developer tools
+
+* Chrome Developer debug tool: [Accessiblity Tree ](https://developer.chrome.com/blog/new-in-devtools-90/?utm\_source=devtools#accesibility-tree)(experimental)
+
+### :blue\_book:Guides
+
+{% embed url="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques" %}
+WAI-ARIA on MDN
+{% endembed %}

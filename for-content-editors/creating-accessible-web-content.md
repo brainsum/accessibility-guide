@@ -5,32 +5,32 @@
 Avoid empty HTML tags, like:
 
 * blank lines,
-* blank tag pairs (these are mostly `div`s, `span`s)
-* bad html tag pairs,
-* ****:point\_up:**headings** (including SEO)
+* blank HTML tag pairs (these are mostly `div`s, `span`s)
+* incorrect HTML tag pairs,
+* ****:point\_up:**headings** (it's very important for SEO too)
 * :point\_up:**link elements**
 
-Content embedded from other sources should be cleaned up (including inline colors, sizes specified in px, fonts) - Drupal and CKEditor are sure to add tools.
+The content embedded from other sources should be cleaned up (including inline colors, sizes specified in px, and fonts) - Drupal and CKEditor can provide tools for this.
 
 ## ****:page\_facing\_up:**Well structured content**
 
-Make sure that the title of the page / article describes its content. (even without opening / reading it is possible to deduce h about what the page is about)
+Make sure that the title of the page/article describes its content. The visitor should figure out what the page/article is about without opening/reading it.
 
-If headings are used, they should follow in logical order.
+If headings are used, they should follow a logical order.
 
-Do not use only strong elements for interline highlighting, especially for longer parts.
+Don't use strong elements only for highlighting, especially true for longer texts.
 
-`abbr` html tag for abbreviations and acronyms (there is a [Drupal CKEditor plugin](https://www.drupal.org/project/ckeditor\_abbreviation) for that).
+Use the `abbr` HTML tag for abbreviations and acronyms. There is a [Drupal CKEditor plugin](https://www.drupal.org/project/ckeditor\_abbreviation) for that.
 
-default text with `lang` and optionally work with `dir` properties - which CKEditor does not yet know - until then you could write your own plugin.
+Use the `lang` and optionally the `dir` properties for paragraphs in a different language than the default of the current page. Currently, the CKEditor doesn't have a tool for this, but they are working on it! Until then we should write our own plugin.
 
 ## :link:Links
 
-Do not link to consecutive items.
+Elements that follow each other shouldn't link to the same target.
 
-If you are not linking to an HTML page, the text of the link will include its type (e.g. PDF).
+If you are not linking to an HTML page, the text of the link will include its type (e.g: [You can download my CV (in PDF).](https://app.gitbook.com/s/w15FEIBrSU7S7mHLcMoD/)).
 
-The text of the link always contains what we are linking to, not a URL or anything like that:&#x20;
+The text of the link always contains what we are linking to, not a URL or anything like these:&#x20;
 
 * _more_,
 * _read more_,
@@ -43,26 +43,38 @@ The text of the link always contains what we are linking to, not a URL or anythi
 
 Use images with appropriate contrast ratios.
 
-Avoid images that contain content text. (if the same text is not present as text).
+Avoid images that contain text content. (if the same text is not present as text).
 
 Avoid using flashing gifs.
 
-Don’t mark anything by itself with just a color distinction (this also applies to text and images).
+Don’t mark anything with color only (this applies to text and images too).
 
 ### Alternative text
 
-Obligatory! (required; blank = no image)&#x20;
+{% hint style="danger" %}
+<mark style="color:red;">**Obligatory!**</mark>
 
-It contains what it means to a sighted person (not what is seen on it).&#x20;
+<mark style="color:red;">It's a required property of the</mark> <mark style="color:red;"></mark><mark style="color:red;">`<img>`</mark> <mark style="color:red;"></mark><mark style="color:red;">tag. Missing = the image does not exist!</mark>
+{% endhint %}
 
-Don't be too long (max about 100 characters)&#x20;
+It contains what it means to a visitor who can see it. (and not what we can see on it).&#x20;
 
-Choose your text carefully: do not have the same name as the file, do not have the same / similar as a text element next to it, contain only a blank space or any word that contains an image, picture, chart, photo, etc.- t means (this is predicted by screen readers).
+Don't be too long. (max. \~100 characters)&#x20;
+
+Choose your text carefully:
+
+* don't use the filename as alt text,
+* don't use the same/similar text as alt text as surrounding texts,
+* alt text doesn't contain only a blank space,
+* the following words are prohibited in the alt text (the screen readers know it's an image but don't know what about it):
+  * image,
+  * picture,
+  * photo,
+  * chart,
+  * etc.
 
 ### **Caption / title**
 
-Not to be confused with `alt` text!&#x20;
-
-Optional&#x20;
+Non't confused with `alt` text! It's an optional complementary text.&#x20;
 
 The text requirements are the same as for `alt` text.

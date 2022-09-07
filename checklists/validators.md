@@ -80,8 +80,6 @@ versions: browser extension
 
 ### Editoria11y Accessibility Checker <a href="#page-subtitle" id="page-subtitle"></a>
 
-Primary for content editors.
-
 versions: Drupal module (7.x, 8.x, 9.x)
 
 {% embed url="https://www.drupal.org/project/editoria11y" %}

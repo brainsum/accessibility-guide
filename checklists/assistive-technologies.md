@@ -4,11 +4,9 @@ description: Screen readers and other softwares.
 
 # 🔊 Assistive Technologies
 
-
-
 You can use them to navigate primarily with the keyboard. Some may support voice control too.&#x20;
 
-If the user's browser and the visited content in them are properly marked / prepared, the screen readers can recognize the type of web elements and what to do with them. E.g.:
+If the user's browser and the visited content in them are properly marked/prepared, the screen readers can recognize the type of web elements and what to do with them. E.g.:
 
 * We can navigate between HTML landmarks.
 * The screen readers can tell us we are standing at a link now that is a clickable item, where to leads, and what you need to press to activate this link.&#x20;
@@ -17,7 +15,7 @@ In the configurations of most screen readers, you can set what type of items you
 
 In the configurations, you can choose the narrator's voice, pronunciation, and speed too.
 
-The screen readers can recognize some character combinations, so they are not pronounced characters individually, but by a word (eg. `GIF`, `:-)`).&#x20;
+The screen readers can recognize some character combinations, so they don't pronounce characters individually, but by a word (eg. `GIF`, `:-)`).&#x20;
 
 ## Screen reader software
 

@@ -25,7 +25,7 @@ If you can't use `<footer>` element (e.g.: not a HTML5 document or can't access 
 Generic part of a page. `<header>` and `<footer>` are also a `<section>`, but for specific purposes.
 
 {% hint style="warning" %}
-<mark style="color:orange;">Not confuse with</mark> <mark style="color:orange;"></mark><mark style="color:orange;">`<div>`</mark><mark style="color:orange;">:</mark> <mark style="color:orange;"></mark><mark style="color:orange;">`<section>`</mark> <mark style="color:orange;"></mark><mark style="color:orange;">is for a different part of a page while</mark> <mark style="color:orange;"></mark><mark style="color:orange;">`<div>`</mark> <mark style="color:orange;"></mark><mark style="color:orange;">is for generic grouping anything.</mark>
+<mark style="color:orange;">**Not confuse with the**</mark><mark style="color:orange;">** **</mark><mark style="color:orange;">**`<div> element!`**</mark><mark style="color:orange;">`The <section> element`</mark> <mark style="color:orange;"></mark><mark style="color:orange;">is for a different part of a page while</mark> <mark style="color:orange;"></mark><mark style="color:orange;">`<div>`</mark> <mark style="color:orange;"></mark><mark style="color:orange;">is for generic grouping anything.</mark>
 {% endhint %}
 
 If you can't use `<section>` element (e.g.: not a HTML5 document or can't access directly to the DOM), please add `role="region"` ARIA role to that section area container.

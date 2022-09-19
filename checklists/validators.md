@@ -34,6 +34,11 @@ versions: web, browser extension
 
 versions: browser extension
 
+supported standards:
+
+* WCAG 2.0 (links to the official doc)
+* WCAG 2.1 (links to the official doc)
+
 <figure><img src="../.gitbook/assets/Screenshot 2022-09-06 at 17.26.24.png" alt=""><figcaption><p>For localhost audit you must enable URL access for it!</p></figcaption></figure>
 
 {% embed url="https://chrome.google.com/webstore/detail/arc-toolkit/chdkkkccnlfncngelccgbgfmjebmkmce" %}
@@ -50,11 +55,20 @@ The most popular accessibility audit tool
 
 versions: web, browser extension
 
+supported standards:
+
+* WCAG 2.0 (links to its simplified own docs)
+
 {% embed url="https://wave.webaim.org" %}
 
 ### A11ygator
 
 versions: web, Chrome extension
+
+supported standards:&#x20;
+
+* WCAG 2.0 A-AAA
+* Section 508
 
 {% hint style="info" %}
 In the web version, we can choose between standards.
@@ -66,6 +80,10 @@ In the web version, we can choose between standards.
 
 versions: browser bookmarklet
 
+supported standards:
+
+* Section 508
+
 {% hint style="warning" %}
 <mark style="color:orange;">If we need to comply with</mark> [<mark style="color:orange;">**Section 508**</mark>](../standards/section-508.md)<mark style="color:orange;">, don't miss it.</mark>
 {% endhint %}
@@ -75,6 +93,10 @@ versions: browser bookmarklet
 ### Deque Axe
 
 versions: browser extension
+
+supported standards:
+
+* WCAG 2.0 (links to its simplified own docs)
 
 {% embed url="https://www.deque.com/axe/" %}
 

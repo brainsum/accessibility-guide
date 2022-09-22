@@ -107,3 +107,9 @@ Primary for content editors.
 versions: Drupal module (7.x, 8.x, 9.x)
 
 {% embed url="https://www.drupal.org/project/editoria11y" %}
+
+### Pa11y
+
+CLI tool for quick checkout, monitoring multiple sites via dashboard and CI.
+
+{% embed url="https://pa11y.org/" %}

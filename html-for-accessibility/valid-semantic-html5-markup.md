@@ -151,29 +151,33 @@ Use it only for text with emphasis. It doesn't have importance like the `<strong
 Use for cases like keywords in a summary, product names in a review, or other spans of text whose typical presentation would be boldfaced (but not including any special importance, for that use `<strong>` element).
 
 {% hint style="warning" %}
-<mark style="color:orange;">If there is no semantic meaning, only want bold text, set</mark> <mark style="color:orange;"></mark><mark style="color:orange;">`font-weight`</mark> <mark style="color:orange;"></mark><mark style="color:orange;">CSS property to</mark> <mark style="color:orange;"></mark><mark style="color:orange;">`bold:`</mark>&#x20;
+<mark style="color:orange;">If there is no semantic meaning, only want bold text.</mark>
+{% endhint %}
 
-<mark style="color:orange;">`<span class="bold">bold text, you see?</span>`</mark>
+{% hint style="success" %}
+<mark style="color:green;">For theming purposes only set</mark> <mark style="color:green;"></mark><mark style="color:green;">`font-weight`</mark> <mark style="color:green;"></mark><mark style="color:green;">CSS property to</mark> <mark style="color:green;"></mark><mark style="color:green;">`bold:`</mark>
+
+<mark style="color:green;">`<span class="bold">bold text, you see?</span>`</mark>
 {% endhint %}
 
 ### `<i>`
 
 For a text that is set off from the normal prose for readability reasons. This would be a range of text with different semantic meanings than the surrounding text.
 
-{% hint style="warning" %}
-<mark style="color:orange;">If there is no semantic meaning, only want italic style text, set</mark> <mark style="color:orange;"></mark><mark style="color:orange;">`font-style`</mark> <mark style="color:orange;"></mark><mark style="color:orange;">CSS property to</mark> <mark style="color:orange;"></mark><mark style="color:orange;">`italic:`</mark>
+{% hint style="success" %}
+<mark style="color:green;">If there is no semantic meaning, only want italic style text, set</mark> <mark style="color:green;"></mark><mark style="color:green;">`font-style`</mark> <mark style="color:green;"></mark><mark style="color:green;">CSS property to</mark> <mark style="color:green;"></mark><mark style="color:green;">`italic:`</mark>
 
-<mark style="color:orange;">`<span class="italic">italic text, you see?</span>`</mark>
+<mark style="color:green;">`<span class="italic">italic text, you see?</span>`</mark>
 {% endhint %}
 
 ### `<u>`
 
 It's a misunderstanding element, not underlining. Use it for the element including annotating spelling errors, applying a proper name mark to denote proper names in Chinese text, and other forms of annotation.
 
-{% hint style="warning" %}
-<mark style="color:orange;">To underline text, you should instead apply a style that includes the CSS</mark> <mark style="color:orange;"></mark><mark style="color:orange;">`text-decoration`</mark> <mark style="color:orange;"></mark><mark style="color:orange;">property set to</mark> <mark style="color:orange;"></mark><mark style="color:orange;">`underline:`</mark>&#x20;
+{% hint style="success" %}
+<mark style="color:green;">To underline text, you should instead apply a style that includes the CSS</mark> <mark style="color:green;"></mark><mark style="color:green;">`text-decoration`</mark> <mark style="color:green;"></mark><mark style="color:green;">property set to</mark> <mark style="color:green;"></mark><mark style="color:green;">`underline:`</mark>&#x20;
 
-<mark style="color:orange;">`<span class="underlined">underlined text, you see?</span>`</mark>
+<mark style="color:green;">`<span class="underlined">underlined text, you see?</span>`</mark>
 {% endhint %}
 
 {% hint style="warning" %}
@@ -185,7 +189,11 @@ It's a misunderstanding element, not underlining. Use it for the element includi
 Use it for a thematic break for different paragraphs.
 
 {% hint style="warning" %}
-<mark style="color:orange;">Don't use the</mark> <mark style="color:orange;"></mark><mark style="color:orange;">`<hr>`</mark> <mark style="color:orange;"></mark><mark style="color:orange;">element to just display a horizontal line. If no thematic breaking meaning just draw it by CSS.</mark>
+<mark style="color:orange;">Don't use the</mark> <mark style="color:orange;"></mark><mark style="color:orange;">`<hr>`</mark> <mark style="color:orange;"></mark><mark style="color:orange;">element to just display a horizontal line.hi</mark>
+{% endhint %}
+
+{% hint style="success" %}
+<mark style="color:green;">If no thematic breaking meaning just draw it by CSS.</mark>
 {% endhint %}
 
 ### `<ol>`, `<ul>`

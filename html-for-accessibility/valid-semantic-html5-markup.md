@@ -74,6 +74,155 @@ It's a very generic grouping element and doesn't have any semantic meaning. Use 
 
 ## Semantic Content elements
 
+### `<h1>` - `<h6>`
+
+Headings are very important for semantic, SEO, and accessibility reasons too. They provide the outline of the current page. Therefore you must always check the HTML5 document outline.
+
+All pages should have at least a `<h1>` element.
+
+{% hint style="warning" %}
+<mark style="color:orange;">Don't forget that headings are for semantic and document structure not for text sizing purposes!</mark>
+{% endhint %}
+
+For sizing you can provide heading css classes, for example:
+
+{% code lineNumbers="true" %}
+```html
+<h2 class="h4">What a nice section title</h2>
+```
+{% endcode %}
+
+### `<p>`
+
+You should use it for **only** paragraphs or paragraphs like longer-length texts.
+
+### `<span>`
+
+The `<span>` is a very generic element, use it only when you don't find any more suitable/specific meaning tags.
+
+{% hint style="info" %}
+**Not for grouping purposes**, for grouping use the `<div>` element!
+
+If you need to wrap content junk into an element and can't find it better, use the `<span>` tag.
+{% endhint %}
+
+### `<small>`
+
+For small printed short-length text.
+
+{% hint style="warning" %}
+<mark style="color:orange;">Not for smaller font-sized text!</mark>
+{% endhint %}
+
+Use it for short length and less important texts, like a footnote, help text, an extension of another text, like:&#x20;
+
+{% code lineNumbers="true" %}
+```
+<small>from </small><strong>$ 99.00</strong>
+```
+{% endcode %}
+
+### `<strong>`
+
+Use it for only very important text (like warnings, errors, sale price, etc.).
+
+{% hint style="warning" %}
+&#x20;<mark style="color:orange;">Not use for bold styling!</mark>
+{% endhint %}
+
+{% hint style="warning" %}
+<mark style="color:orange;">**Never use it for whole paragraphs, lines, or sentences!**</mark> <mark style="color:orange;"></mark><mark style="color:orange;">Only for a bunch of important words.</mark>
+{% endhint %}
+
+### `<em>`
+
+Use it only for text with emphasis. It doesn't have importance like the `<strong>` element has.
+
+{% hint style="warning" %}
+<mark style="color:orange;">Not use for italic styling!</mark>
+{% endhint %}
+
+{% hint style="warning" %}
+<mark style="color:orange;">**Never use it for whole paragraphs, lines, or sentences!**</mark> <mark style="color:orange;"></mark><mark style="color:orange;">Only for a bunch of words.</mark>
+{% endhint %}
+
+### `<b>`
+
+Use for cases like keywords in a summary, product names in a review, or other spans of text whose typical presentation would be boldfaced (but not including any special importance, for that use `<strong>` element).
+
+{% hint style="warning" %}
+<mark style="color:orange;">If there is no semantic meaning, only want bold text, set</mark> <mark style="color:orange;"></mark><mark style="color:orange;">`font-weight`</mark> <mark style="color:orange;"></mark><mark style="color:orange;">CSS property to</mark> <mark style="color:orange;"></mark><mark style="color:orange;">`bold:`</mark>&#x20;
+
+<mark style="color:orange;">`<span class="bold">bold text, you see?</span>`</mark>
+{% endhint %}
+
+### `<i>`
+
+For a text that is set off from the normal prose for readability reasons. This would be a range of text with different semantic meanings than the surrounding text.
+
+{% hint style="warning" %}
+<mark style="color:orange;">If there is no semantic meaning, only want italic style text, set</mark> <mark style="color:orange;"></mark><mark style="color:orange;">`font-style`</mark> <mark style="color:orange;"></mark><mark style="color:orange;">CSS property to</mark> <mark style="color:orange;"></mark><mark style="color:orange;">`italic:`</mark>
+
+<mark style="color:orange;">`<span class="italic">italic text, you see?</span>`</mark>
+{% endhint %}
+
+### `<u>`
+
+It's a misunderstanding element, not underlining. Use it for the element including annotating spelling errors, applying a proper name mark to denote proper names in Chinese text, and other forms of annotation.
+
+{% hint style="warning" %}
+<mark style="color:orange;">To underline text, you should instead apply a style that includes the CSS</mark> <mark style="color:orange;"></mark><mark style="color:orange;">`text-decoration`</mark> <mark style="color:orange;"></mark><mark style="color:orange;">property set to</mark> <mark style="color:orange;"></mark><mark style="color:orange;">`underline:`</mark>&#x20;
+
+<mark style="color:orange;">`<span class="underlined">underlined text, you see?</span>`</mark>
+{% endhint %}
+
+{% hint style="warning" %}
+<mark style="color:orange;">Avoid using the</mark> <mark style="color:orange;"></mark><mark style="color:orange;">`<u>`</mark> <mark style="color:orange;"></mark><mark style="color:orange;">element with its default styling (of underlined text) in such a way as to be confused with a hyperlink, which is also underlined by default.</mark>
+{% endhint %}
+
+### `<hr>`
+
+Use it for a thematic break for different paragraphs.
+
+{% hint style="warning" %}
+<mark style="color:orange;">Don't use the</mark> <mark style="color:orange;"></mark><mark style="color:orange;">`<hr>`</mark> <mark style="color:orange;"></mark><mark style="color:orange;">element to just display a horizontal line. If no thematic breaking meaning just draw it by CSS.</mark>
+{% endhint %}
+
+### `<ol>`, `<ul>`
+
+Use them for all listed elements.
+
+{% hint style="warning" %}
+<mark style="color:orange;">However, we can override the bullets via CSS, do it only for theming purposes, and</mark> <mark style="color:orange;"></mark><mark style="color:orange;">**don't use CSS for content printing!**</mark>
+{% endhint %}
+
+### `<dl>`
+
+You can use the definition list for many-to-many relationships. It's not a typical list: when you have more label/content like data. ex.:
+
+{% code lineNumbers="true" %}
+```html
+<h3>Addresses</h3>
+
+<dl>
+    <dt>Office</dt>
+    <dt>Customer Service</dt>
+    <dd>Carl street 20, Bay Area, Los Angeles</dd>
+    
+    <dt>Storage Department</dt>
+    <dd>Old King street 236, Industry Area, San Francisco</dd>
+</dl>
+```
+{% endcode %}
+
+### \<table>
+
+Use the `<table>` element only for table data.
+
+{% hint style="warning" %}
+<mark style="color:orange;">Never use it for layout or styling!</mark>
+{% endhint %}
+
 ### `<address>`
 
 It's a section of the page as well. It's grouping all contact info about the page/article/website's author.
@@ -107,24 +256,8 @@ You can use the `<figure>` element with the `<figcaption>` element for important
 ```
 {% endcode %}
 
-### \<table>
-
-Use the `<table>` element only for table data.
-
-{% hint style="warning" %}
-<mark style="color:orange;">Never use it for layout or styling!</mark>
-{% endhint %}
-
-### `<p>`
-
-You should use it for **only** paragraphs or paragraphs like longer-length texts.
-
-* `<ul>`, `<ol>`, `<dl>`
-* `<figure>`, `<figcaption>`
 * `<blockquote>`, `<q>`, `<cite>`
-* `<address>`
-* `<small>`
-* `<h1>` ... `<h6>`
-* `<em>`
-* `<strong>`
+
+``
+
 * \[...]

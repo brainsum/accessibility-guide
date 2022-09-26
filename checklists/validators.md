@@ -30,14 +30,27 @@ versions: web, browser extension
 
 {% embed url="https://web.dev/measure/" %}
 
+### HTML\_CodeSniffer
+
+versions: web (source code paste), bookmarklet, Drupal module (see [Editoria11y Accessibility Checker](validators.md#page-subtitle))
+
+supported standards:
+
+* WCAG 2.1 A
+* WCAG 2.1 AA
+* WCAG 2.1 AAA
+* Section 508
+
+{% embed url="http://squizlabs.github.io/HTML_CodeSniffer/" %}
+
 ### ARC Toolkit
 
 versions: browser extension
 
 supported standards:
 
-* WCAG 2.0 (links to the official doc)
-* WCAG 2.1 (links to the official doc)
+* WCAG 2.0 AA (links to the official doc)
+* WCAG 2.1 AA (links to the official doc)
 
 <figure><img src="../.gitbook/assets/Screenshot 2022-09-06 at 17.26.24.png" alt=""><figcaption><p>For localhost audit you must enable URL access for it!</p></figcaption></figure>
 

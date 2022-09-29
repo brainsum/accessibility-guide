@@ -6,6 +6,3 @@ coverY: 368.094674556213
 
 # 📘 WCAG 2.1 in the practice
 
-## :blue\_book:Guides
-
-{% embed url="https://www.digitala11y.com/wcag2-0/" %}

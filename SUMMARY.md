@@ -30,6 +30,7 @@
     * [🕓 2.2 Enough Time](wcag-2.1-in-the-practice/2.-operable/2.2-enough-time.md)
     * [🤯 2.3 Seizures and Physical Reactions](wcag-2.1-in-the-practice/2.-operable/2.3-seizures-and-physical-reactions.md)
     * [🗺 2.4 Navigable](wcag-2.1-in-the-practice/2.-operable/2.4-navigable.md)
+    * [✍ 2.5 Input Modalities](wcag-2.1-in-the-practice/2.-operable/2.5-input-modalities.md)
   * [🙌 3. Understandable](wcag-2.1-in-the-practice/3.-understandable/README.md)
     * [👓 3.1 Readable](wcag-2.1-in-the-practice/3.-understandable/3.1-readable.md)
     * [🔮 3.2 Predictable](wcag-2.1-in-the-practice/3.-understandable/3.2-predictable.md)

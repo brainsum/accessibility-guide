@@ -75,10 +75,6 @@ Choose your text carefully:
 
 ### **Caption / title**
 
-Don't be confused with `alt` text! It's an optional complementary text. If you can, please avoid using it - only if it's really necessary.
-
-{% hint style="warning" %}
-<mark style="color:orange;">The value of</mark> <mark style="color:orange;"></mark><mark style="color:orange;">`alt=""`</mark> <mark style="color:orange;"></mark><mark style="color:orange;">and</mark> <mark style="color:orange;"></mark><mark style="color:orange;">`tite=""`</mark> <mark style="color:orange;"></mark><mark style="color:orange;">must be different!</mark>
-{% endhint %}
+Non't confused with `alt` text! It's an optional complementary text.&#x20;
 
 The text requirements are the same as for `alt` text.

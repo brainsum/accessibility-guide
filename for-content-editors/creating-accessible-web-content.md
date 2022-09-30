@@ -75,6 +75,14 @@ Choose your text carefully:
 
 ### **Caption / title**
 
-Non't confused with `alt` text! It's an optional complementary text.&#x20;
+Don't be confused with `alt` text! It's an optional complementary text. If you want to give a title for an image, use the `<figure>` and `<figcaption>` elements for this purpose.
+
+{% hint style="danger" %}
+<mark style="color:red;">Never use the</mark> <mark style="color:red;"></mark><mark style="color:red;">`title`</mark> <mark style="color:red;"></mark><mark style="color:red;">property on non-interactive elements, like</mark> <mark style="color:red;"></mark><mark style="color:red;">`<img>`</mark><mark style="color:red;">!</mark>
+{% endhint %}
+
+{% hint style="warning" %}
+<mark style="color:orange;">The value of caption/title should be different than the value of alt property!</mark>
+{% endhint %}
 
 The text requirements are the same as for `alt` text.

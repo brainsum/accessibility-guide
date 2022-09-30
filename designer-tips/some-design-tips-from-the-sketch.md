@@ -37,5 +37,5 @@ Think about tap states and other ways your design can be improved for phones or 
 <figure><img src="../.gitbook/assets/FTJAyDqVUAEp8Cv.jpg" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-While the WCAG 2.1 recommends 44px, the [Lighthouse](https://web.dev/measure/) recommends **48x48px** touch size with at least 8px distance.
+[While the WCAG 2.1 recommends 44px](../wcag-2.1-in-the-practice/2.-operable/2.5-input-modalities.md#target-size-aaa), the [Lighthouse](https://web.dev/measure/) recommends **48x48px** touch size with at least 8px distance.
 {% endhint %}

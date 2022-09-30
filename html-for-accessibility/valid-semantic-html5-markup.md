@@ -264,6 +264,10 @@ You can use the `<figure>` element with the `<figcaption>` element for important
 ```
 {% endcode %}
 
+{% hint style="danger" %}
+<mark style="color:red;">If you need to add a caption or title for an image, use the</mark> <mark style="color:red;"></mark><mark style="color:red;">`<figcaption>`</mark> <mark style="color:red;"></mark><mark style="color:red;">element for that, instead of the title property for an</mark> <mark style="color:red;"></mark><mark style="color:red;">`<img>`</mark> <mark style="color:red;"></mark><mark style="color:red;">element!</mark>
+{% endhint %}
+
 * `<blockquote>`, `<q>`, `<cite>`
 
 ``

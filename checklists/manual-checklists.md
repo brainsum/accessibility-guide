@@ -1,5 +1,9 @@
 # 🧑 Manual checklists
 
+{% embed url="https://blog.pope.tech/2023/03/01/a-beginners-guide-to-manual-accessibility-testing/" %}
+Guide for manual testing
+{% endembed %}
+
 ## Guided by tools
 
 ### Accessibility Insights
@@ -39,6 +43,6 @@ PDF version (downloaded at 08.09.2022)
 * [ ] Does the text of the links indicate the purpose of the link?
 * [ ] Are the form fields clear? Eg. we use labels for fields, not use a placeholder as the label, etc.
 * [ ] Can forms (contact, search…) be completed using the keyboard only?
-* [ ] In case of incorrect form submission, there is an error message, and the location of the error?
+* [ ] In case of incorrect form submission, there is an error message and the location of the error?
 * [ ] Does the form ask the user to check again before finally sending the form?&#x20;
 * [ ] Is there proper feedback after the successful form submission?

@@ -6,9 +6,14 @@ Group the belonging together elements, there should be enough space between the 
 
 ## Colors
 
-Apply the appropriate color contrast between foreground color and background.
+Apply the appropriate color contrast between the foreground color and the background.
 
-Let's not mark anything with color alone. Should have a text version too.
+Let's not mark anything with color alone. It should have a text version too.
+
+You can use plugins for your design software, like:
+
+* [A11y - Color Contrast Checker](https://www.figma.com/community/plugin/733159460536249875/A11y---Color-Contrast-Checker) for Figma
+* [Cluse](https://cluse.cc) for Sketch
 
 ## Media
 

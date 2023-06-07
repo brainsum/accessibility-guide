@@ -32,7 +32,7 @@ If you can't use `<section>` element (e.g.: not an HTML5 document or can't acces
 
 ### `<main>`
 
-It's telling for screenreaders where the main content begins. There should be only one instance of the `<main>` element on a page! For not responsive websites, mobile devices can zoom on them.
+It's telling screenreaders where the main content begins. There should be only one instance of the `<main>` element on a page! For not responsive websites, mobile devices can zoom on them.
 
 If you can't use `<main>` element (e.g.: not an HTML5 document or can't access directly to the DOM), please add `role="main"` ARIA role in that main area container `<div>`.&#x20;
 
@@ -41,10 +41,10 @@ If you can't use `<main>` element (e.g.: not an HTML5 document or can't access d
 The container of related/secondary content (primary content is the `<article>` element).
 
 **Within an `<article>` element:**\
-****it's related to this `<article>`, like a glossary.
+it's related to this `<article>`, like a glossary.
 
 **Outside of an `<article>` element:**\
-****it's related to the page, like a sidebar, a list of related posts/articles.
+it's related to the page, like a sidebar, or a list of related posts/articles.
 
 {% hint style="warning" %}
 <mark style="color:orange;">**Don't confuse it with the sidebar region.**</mark> <mark style="color:orange;"></mark><mark style="color:orange;">The sidebar may contain one or more</mark> <mark style="color:orange;"></mark><mark style="color:orange;">`<aside>`</mark> <mark style="color:orange;"></mark><mark style="color:orange;">elements, but an</mark> <mark style="color:orange;"></mark><mark style="color:orange;">`<aside>`</mark> <mark style="color:orange;"></mark><mark style="color:orange;">element could be anywhere else too.</mark>
@@ -127,7 +127,7 @@ Use it for short length and less important texts, like a footnote, help text, an
 Use it for only very important text (like warnings, errors, sale price, etc.).
 
 {% hint style="warning" %}
-&#x20;<mark style="color:orange;">Not use for bold styling!</mark>
+<mark style="color:orange;">Don't use it for bold styling!</mark>
 {% endhint %}
 
 {% hint style="warning" %}
@@ -136,10 +136,10 @@ Use it for only very important text (like warnings, errors, sale price, etc.).
 
 ### `<em>`
 
-Use it only for text with emphasis. It doesn't have importance like the `<strong>` element has.
+Use it only for text with emphasis. It doesn't have the importance the `<strong>` element has.
 
 {% hint style="warning" %}
-<mark style="color:orange;">Not use for italic styling!</mark>
+<mark style="color:orange;">Don't use it for italic styling!</mark>
 {% endhint %}
 
 {% hint style="warning" %}
@@ -172,7 +172,7 @@ For a text that is set off from the normal prose for readability reasons. This w
 
 ### `<u>`
 
-It's a misunderstanding element, not underlining. Use it for the element including annotating spelling errors, applying a proper name mark to denote proper names in Chinese text, and other forms of annotation.
+It's a misunderstanding element, not underlining. Use it for the element including annotating spelling errors, applying a proper name mark to denote proper names in Chinese text and other forms of annotation.
 
 {% hint style="success" %}
 <mark style="color:green;">To underline text, you should instead apply a style that includes the CSS</mark> <mark style="color:green;"></mark><mark style="color:green;">`text-decoration`</mark> <mark style="color:green;"></mark><mark style="color:green;">property set to</mark> <mark style="color:green;"></mark><mark style="color:green;">`underline:`</mark>&#x20;
@@ -189,16 +189,16 @@ It's a misunderstanding element, not underlining. Use it for the element includi
 Use it for a thematic break for different paragraphs.
 
 {% hint style="warning" %}
-<mark style="color:orange;">Don't use the</mark> <mark style="color:orange;"></mark><mark style="color:orange;">`<hr>`</mark> <mark style="color:orange;"></mark><mark style="color:orange;">element to just display a horizontal line.hi</mark>
+<mark style="color:orange;">Don't use the</mark> <mark style="color:orange;"></mark><mark style="color:orange;">`<hr>`</mark> <mark style="color:orange;"></mark><mark style="color:orange;">element to just display a horizontal line.</mark>
 {% endhint %}
 
 {% hint style="success" %}
-<mark style="color:green;">If no thematic breaking meaning just draw it by CSS.</mark>
+<mark style="color:green;">If no thematic breaking meaning draw it by CSS.</mark>
 {% endhint %}
 
 ### `<ol>`, `<ul>`
 
-Use them for all listed elements.
+Use them for all listed elements, but watch out: do not use `<div>` or other HTML elements between `<ul>`/`<ol>` and `<li>` elements. When we use a slider script, it's very typical it will wrap the `<li>` elements into one or more `<div>`s.
 
 {% hint style="warning" %}
 <mark style="color:orange;">However, we can override the bullets via CSS, do it only for theming purposes, and</mark> <mark style="color:orange;"></mark><mark style="color:orange;">**don't use CSS for content printing!**</mark>
@@ -218,7 +218,7 @@ You can use the definition list for many-to-many relationships. It's not a typic
     <dd>Carl street 20, Bay Area, Los Angeles</dd>
     
     <dt>Storage Department</dt>
-    <dd>Old King street 236, Industry Area, San Francisco</dd>
+    <dd>Old King Street 236, Industry Area, San Francisco</dd>
 </dl>
 ```
 {% endcode %}
@@ -247,11 +247,11 @@ It's a section of the page as well. It's grouping all contact info about the pag
 
 ### `<figure>`, `<figcaption>`
 
-The `<figure>` **** element represents self-contained content, potentially with an optional caption, like images, quotes, or code blocks.
+The `<figure>` element represents self-contained content, potentially with an optional caption, like images, quotes, or code blocks.
 
 Use it when an image, group of images, a quote, or a code sample is closely related to the document flow.
 
-It could contain one or more `<img>` elements. Optional, but it could contain a `<figcaption>` as a label with could be on top or bottom of a `<figure>` element.
+It could contain one or more `<img>` elements. Optional, but it could contain a `<figcaption>` as a label that could be on top or bottom of a `<figure>` element.
 
 You can use the `<figure>` element with the `<figcaption>` element for important images with hidden descriptive text, like a logo:
 
@@ -268,8 +268,18 @@ You can use the `<figure>` element with the `<figcaption>` element for important
 <mark style="color:red;">If you need to add a caption or title for an image, use the</mark> <mark style="color:red;"></mark><mark style="color:red;">`<figcaption>`</mark> <mark style="color:red;"></mark><mark style="color:red;">element for that, instead of the title property for an</mark> <mark style="color:red;"></mark><mark style="color:red;">`<img>`</mark> <mark style="color:red;"></mark><mark style="color:red;">element!</mark>
 {% endhint %}
 
-* `<blockquote>`, `<q>`, `<cite>`
+### `<blockquote>`, `<cite>`
 
-``
+For block-level quotes use the `<blockquote>` with `<figure>`, `<figcaption>`, and if possible with `<cite>` element, like in the MDN's example:
 
-* \[...]
+{% code lineNumbers="true" %}
+```html
+<figure>
+    <blockquote cite="https://www.huxley.net/bnw/four.html">
+        <p>Words can be like X-rays, if you use them properly—they’ll go through anything. You read and you’re pierced.</p>
+    </blockquote>
+    <figcaption>—Aldous Huxley, <cite>Brave New World</cite></figcaption>
+</figure>
+```
+{% endcode %}
+

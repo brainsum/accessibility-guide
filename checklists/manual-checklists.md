@@ -24,6 +24,10 @@ Use the Assessments function of the plugin.
 PDF version (downloaded at 08.09.2022)
 {% endfile %}
 
+### The A11Y Project
+
+{% embed url="https://www.a11yproject.com/checklist/" %}
+
 ## :blue\_book:The manual guide
 
 * [ ] Is there a search box in the header?

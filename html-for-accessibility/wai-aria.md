@@ -15,7 +15,7 @@ Specifically, it tries to help you understand the clear relationships between dy
 * gives a title property to any HTML item that has no text content,
 * tracks the current status of interactive items.
 
-Latest release: [WAI-ARIA 1.1](https://www.w3.org/TR/wai-aria-1.1/), released in 2017; [1.2 ](https://www.w3.org/TR/wai-aria-1.2/)is still in the Draft version.
+Latest release: [WAI-ARIA 1.2](https://www.w3.org/TR/wai-aria-1.2/), released in 2023.
 
 ## **WAI-ARIA tools**
 

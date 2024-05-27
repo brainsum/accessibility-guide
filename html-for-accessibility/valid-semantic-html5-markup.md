@@ -200,6 +200,8 @@ Use it for a thematic break for different paragraphs.
 
 Use them for all listed elements, but watch out: do not use `<div>` or other HTML elements between `<ul>`/`<ol>` and `<li>` elements. When we use a slider script, it's very typical it will wrap the `<li>` elements into one or more `<div>`s.
 
+The best if you use \<ul> and \<ol> elements only for lists and navigations and avoid to  use them in layout and lister pages.
+
 {% hint style="warning" %}
 <mark style="color:orange;">However, we can override the bullets via CSS, do it only for theming purposes, and</mark> <mark style="color:orange;"></mark><mark style="color:orange;">**don't use CSS for content printing!**</mark>
 {% endhint %}

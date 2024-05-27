@@ -7,12 +7,12 @@ Avoid empty HTML tags, like:
 * blank lines,
 * blank HTML tag pairs (these are mostly `div`s, `span`s)
 * incorrect HTML tag pairs,
-* ****:point\_up:**headings** (it's very important for SEO too)
+* :point\_up:**headings** (it's very important for SEO too)
 * :point\_up:**link elements**
 
 The content embedded from other sources should be cleaned up (including inline colors, sizes specified in px, and fonts) - Drupal and CKEditor can provide tools for this.
 
-## ****:page\_facing\_up:**Well structured content**
+## :page\_facing\_up:**Well structured content**
 
 Make sure that the title of the page/article describes its content. The visitor should figure out what the page/article is about without opening/reading it.
 
@@ -28,7 +28,7 @@ Use the `lang` and optionally the `dir` properties for paragraphs in a different
 
 Elements that follow each other shouldn't link to the same target.
 
-If you are not linking to an HTML page, the text of the link will include its type (e.g: [You can download my CV (in PDF).](https://app.gitbook.com/s/w15FEIBrSU7S7mHLcMoD/)).
+If you are not linking to an HTML page, the text of the link will include its type (e.g: [You can download my CV (in PDF).](https://app.gitbook.com/o/K4Ea26KknbCV5NcNGUaW/s/w15FEIBrSU7S7mHLcMoD/)).
 
 The text of the link always contains what we are linking to, not a URL or anything like these:&#x20;
 

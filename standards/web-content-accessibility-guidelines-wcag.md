@@ -23,19 +23,19 @@ The successor of the first edition was released in 2008. Restructured the requir
 
 ### WCAG 2.1&#x20;
 
-The current version was released in 2018 and contains only a few additions, mainly at the AA and AAA levels (see below).
+It was released in 2018 and contains only a few additions, mainly at the AA and AAA levels (see below).
 
 {% embed url="https://www.w3.org/TR/WCAG21/" %}
 
 ### WCAG 2.2
 
-Currently still in Draft status.
+The current version was released in 2023 and similarly to version 2.1 contains only a few additions, mainly at the AA and AAA levels and one rule was removed. ([changes](https://www.w3.org/WAI/standards-guidelines/wcag/new-in-22/#changes-from-wcag-21-to-wcag-22))
 
 {% embed url="https://www.w3.org/TR/WCAG22/" %}
 
 ### WCAG 3.0
 
-Currently still in Draft status. It aims for easier transparency and goes beyond the WEB.
+Currently  in Draft status. It aims for easier transparency and goes beyond the WEB.
 
 {% embed url="https://www.w3.org/TR/wcag-3.0/" %}
 
@@ -56,5 +56,5 @@ Basic level, at least we have to achieve this!
 For the most part, it requires more serious changes, even if we need to radically change the way the website works.
 
 {% hint style="info" %}
-In the [WCAG 2.1 in the practice section](../wcag-2.1-in-the-practice/), we marked all rules with their level.
+In the [WCAG 2.2 in the practice section](../wcag-2.x-in-the-practice/), we marked all rules with their level.
 {% endhint %}

@@ -29,7 +29,7 @@ It was released in 2018 and contains only a few additions, mainly at the AA and 
 
 ### WCAG 2.2
 
-The current version was released in 2023 and similarly to version 2.1 contains only a few additions, mainly at the AA and AAA levels and one rule was removed. ([changes](https://www.w3.org/WAI/standards-guidelines/wcag/new-in-22/#changes-from-wcag-21-to-wcag-22))
+The current version was released in 2023 and similarly to version 2.1 contains only a few additions and a rule was removed. All rules are reflections to time changes since WCAG 2.0 and new challenges. ([changes](https://www.w3.org/WAI/standards-guidelines/wcag/new-in-22/#changes-from-wcag-21-to-wcag-22))
 
 {% embed url="https://www.w3.org/TR/WCAG22/" %}
 

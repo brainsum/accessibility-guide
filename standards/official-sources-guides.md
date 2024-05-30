@@ -18,8 +18,8 @@ Web Content Accessibility Guidelines (WCAG) 2.2
 The Hungarian translation of the Web Content Accessibility Guidelines (WCAG) 2.0: Web Akadálymentesítési Útmutató 2.0
 {% endembed %}
 
-{% embed url="https://www.w3.org/WAI/WCAG21/quickref/" %}
-WCAG 2.1 Quick Reference (more usable interface - we will use this in this guide)
+{% embed url="https://www.w3.org/WAI/WCAG22/quickref/?versions=2.2" %}
+WCAG 2.2 Quick Reference (more usable interface - we will use this in this guide)
 {% endembed %}
 
 ## The USA Government

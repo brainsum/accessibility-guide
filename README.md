@@ -12,11 +12,11 @@ layout: landing
 
 Whether it's SEO or accessibility, the general goal is to be able to offer the same information to everyone, regardless of whether the visitor:
 
-* a genuine visitor or a scanning robot,&#x20;
-* can browse the page with full or only partial sensory use:&#x20;
+* a human visitor or a scanning robot,&#x20;
+* can browse the page with full or partial sensory use:&#x20;
   * blind, low vision (screen reading, zooming, contrast management),&#x20;
   * deaf-mute (audio / video transcriptions),&#x20;
-  * has difficulty reading (e.g. dyslexia),&#x20;
+  * has difficulty to reading (e.g. dyslexia),&#x20;
   * finger or hand coordination is challenging (e.g. mouse is not / difficult to use),&#x20;
   * users have to use their other body parts for control instead of hands/fingers,&#x20;
   * users can navigate by themselves or only with the help of an assistant program (even with voice control),

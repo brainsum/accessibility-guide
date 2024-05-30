@@ -10,8 +10,8 @@ W3C Web Accessibility Initiative (WAI)
 Accessibility Principles (a quick guide to WCAG 2.1)
 {% endembed %}
 
-{% embed url="https://www.w3.org/TR/WCAG21/" %}
-Web Content Accessibility Guidelines (WCAG) 2.1
+{% embed url="https://www.w3.org/TR/WCAG22/" %}
+Web Content Accessibility Guidelines (WCAG) 2.2
 {% endembed %}
 
 {% embed url="http://www.w3c.hu/forditasok/WCAG20/" %}

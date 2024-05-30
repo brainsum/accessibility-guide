@@ -28,7 +28,7 @@ versions: web
 
 versions: web, browser extension
 
-{% embed url="https://web.dev/measure/" %}
+{% embed url="https://pagespeed.web.dev" %}
 
 ### HTML\_CodeSniffer
 
@@ -107,19 +107,41 @@ supported standards:
 
 versions: browser extension
 
+It's used by [Google Lighthouse](validators.md#google-lighthouse) too under the hood.
+
 supported standards:
 
 * WCAG 2.0 (links to its simplified own docs)
 
 {% embed url="https://www.deque.com/axe/" %}
 
+### Mozilla Firefiox Accessibility Tools
+
+* Tab order inspector
+* Checking issues for:
+  * Koyboard navigvation
+  * Text labels
+  * Color contrast
+* Color-blind modes
+
+<figure><img src="../.gitbook/assets/Screenshot 2024-05-30 at 07.09.14.png" alt=""><figcaption><p>Firefox Accessibility Tools tab with activated Tab order</p></figcaption></figure>
+
 ### Editoria11y Accessibility Checker <a href="#page-subtitle" id="page-subtitle"></a>
 
 Primary for content editors.
 
-versions: Drupal module (7.x, 8.x, 9.x)
+versions: Drupal module (9.x, 10.x, 11.x)
 
 {% embed url="https://www.drupal.org/project/editoria11y" %}
+
+### Devel Accessibility
+
+For testing these Drupal features easier:
+
+* `Drupal.announce` announcements
+* `Drupal.TabbingManager` tabbing constraints
+
+{% embed url="https://www.drupal.org/project/devel_a11y" %}
 
 ### Pa11y
 

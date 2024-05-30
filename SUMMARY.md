@@ -7,6 +7,7 @@
   * [🛂 Legal obligations in different countries](standards/legal-obligations-in-different-countries.md)
   * [☑️ WCAG 2.x principles](standards/wcag-2.x-principles.md)
   * [📑 Official sources, guides](standards/official-sources-guides.md)
+* [💧 Drupal Accessibility Guides](drupal-accessibility-guides.md)
 * [✅ Checklists](checklists/README.md)
   * [🤖 Validators](checklists/validators.md)
   * [🧑 Manual checklists](checklists/manual-checklists.md)

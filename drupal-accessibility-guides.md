@@ -8,6 +8,10 @@ Accessibility Handbook
 Accessibility tools for JavaScript
 {% endembed %}
 
+{% embed url="https://www.drupal.org/docs/develop/standards/accessibility-coding-standards" %}
+Drulal Accessibility Coding Standards
+{% endembed %}
+
 {% embed url="https://www.drupal.org/docs/develop/automated-testing/javascript-testing-using-nightwatch#s-writing-accessibility-tests-in-nightwatch" %}
 Writing JavaScript Accessibility tests in Nightwatch
 {% endembed %}

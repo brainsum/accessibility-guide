@@ -134,15 +134,6 @@ versions: Drupal module (9.x, 10.x, 11.x)
 
 {% embed url="https://www.drupal.org/project/editoria11y" %}
 
-### Devel Accessibility
-
-For testing these Drupal features easier:
-
-* `Drupal.announce` announcements
-* `Drupal.TabbingManager` tabbing constraints
-
-{% embed url="https://www.drupal.org/project/devel_a11y" %}
-
 ### Pa11y
 
 CLI tool for quick checkout, monitoring multiple sites via dashboard and CI.

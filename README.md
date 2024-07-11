@@ -25,7 +25,5 @@ Whether it's SEO or accessibility, the general goal is to be able to offer the s
 All page elements should appear to everyone in the same order, same priority, and preferably in the same way. Use assistive information to help the users understand non-text-based elements. Try to make all information available in text format (too) if possible; text-based information is the easiest data format that is processable by assistive or other technologies.
 
 {% hint style="info" %}
-![](.gitbook/assets/88x31.png)
-
-This work is licensed under a [Creative Commons Zero v1.0 Universal](LICENSE) License.
+![](.gitbook/assets/88x31.png)This work is licensed under a [Creative Commons Zero v1.0 Universal](LICENSE) License.
 {% endhint %}

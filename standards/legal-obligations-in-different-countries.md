@@ -4,11 +4,13 @@
 
 ### 🇺🇸 The USA
 
-* WCAG 2.0 A and AA
+* WCAG 2.1 A and AA
 * Section 508&#x20;
 * Precedent Judgment: 2017&#x20;
 
 {% embed url="https://www.section508.gov/" %}
+
+{% embed url="https://www.ada.gov" %}
 
 ### 🇪🇺 European Union
 

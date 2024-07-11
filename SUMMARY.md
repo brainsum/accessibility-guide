@@ -4,6 +4,7 @@
 * [📘 Standards](standards/README.md)
   * [📑 Web Content Accessibility Guidelines (WCAG)](standards/web-content-accessibility-guidelines-wcag.md)
   * [📑 Section 508](standards/section-508.md)
+  * [📑 ADA (Americans with Disabilities Act)](standards/ada-americans-with-disabilities-act.md)
   * [🛂 Legal obligations in different countries](standards/legal-obligations-in-different-countries.md)
   * [☑️ WCAG 2.x principles](standards/wcag-2.x-principles.md)
   * [📑 Official sources, guides](standards/official-sources-guides.md)

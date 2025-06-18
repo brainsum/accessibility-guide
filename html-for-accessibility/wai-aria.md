@@ -61,7 +61,7 @@ Those attributes that indicate the state, if they can be changed (`aria-checked`
 
 ### Connect the logically related DOM elements
 
-Associate elements in different locations in the DOM but associated with the corresponding ARIA properties, e.g. [example of tab navigation](https://developer.mozilla.org/en-US/docs/Web/Accessibility/An\_overview\_of\_accessible\_web\_applications\_and\_widgets):&#x20;
+Associate elements in different locations in the DOM but associated with the corresponding ARIA properties, e.g. [example of tab navigation](https://developer.mozilla.org/en-US/docs/Web/Accessibility/An_overview_of_accessible_web_applications_and_widgets):&#x20;
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```html
@@ -90,10 +90,14 @@ Associate elements in different locations in the DOM but associated with the cor
 
 ### :tools:Developer tools
 
-* Chrome Developer debug tool: [Accessibility Tree](https://developer.chrome.com/blog/new-in-devtools-90/?utm\_source=devtools#accesibility-tree) (experimental)
+* Chrome Developer debug tool: [Accessibility Tree](https://developer.chrome.com/blog/new-in-devtools-90/?utm_source=devtools#accesibility-tree) (experimental)
 
 ### :blue\_book:Guides
 
 {% embed url="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques" %}
 WAI-ARIA on MDN
+{% endembed %}
+
+{% embed url="https://www.smashingmagazine.com/2025/06/what-i-wish-someone-told-me-aria/" %}
+Smashing Magazin's ARIA article for beginners
 {% endembed %}

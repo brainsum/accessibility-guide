@@ -94,8 +94,12 @@ Associate elements in different locations in the DOM but associated with the cor
 
 ### :blue\_book:Guides
 
+{% embed url="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Guides" %}
+WAI-ARIA guides of MDN
+{% endembed %}
+
 {% embed url="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques" %}
-WAI-ARIA on MDN
+WAI-ARIA: roles, states and properties on MDN
 {% endembed %}
 
 {% embed url="https://www.smashingmagazine.com/2025/06/what-i-wish-someone-told-me-aria/" %}

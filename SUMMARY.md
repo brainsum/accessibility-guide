@@ -21,6 +21,7 @@
 * [👨‍💻 HTML for accessibility](html-for-accessibility/README.md)
   * [✅ Valid Semantic HTML5 Markup](html-for-accessibility/valid-semantic-html5-markup.md)
   * [♿ WAI-ARIA](html-for-accessibility/wai-aria.md)
+  * [🧩 ARIA Design Patterns](html-for-accessibility/aria-design-patterns.md)
 * [🧩 Drupal Modules for Accessibility](drupal-modules-for-accessibility.md)
 * [📘 WCAG 2.x in the practice](wcag-2.x-in-the-practice/README.md)
   * [👁️ 1. Perceivable](wcag-2.x-in-the-practice/1.-perceivable/README.md)
